@@ -1,4 +1,5 @@
 import csv
+import os
 from email.quoprimime import quote
 from lib2to3.pgen2.token import NEWLINE
 from urllib import request
