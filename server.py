@@ -19,7 +19,7 @@ def home(page_name):
     return render_template(page_name)
 
 def write__to_csv(data):
-    with open('D:/python practice/flask_project/database.csv',mode='a') as database2:
+    with open('database.csv',mode='a') as database2:
         email= data["email"]
         subject = data["subject"]
         message = data["message"]
