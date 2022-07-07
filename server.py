@@ -19,7 +19,7 @@ def home(page_name):
     return render_template(page_name)
 
 def write__to_csv(data):
-    with open('../database.csv',mode='a') as database2:
+    with open('https://github.com/Rehan-stack/portfo/blob/main/database.csv',mode='a') as database2:
         email= data["email"]
         subject = data["subject"]
         message = data["message"]
